@@ -6940,3 +6940,306 @@ DONE (t=7.74s).
 12/07 13:09:16 - mmengine - INFO - bbox_mAP_copypaste: 0.009 0.032 0.003 0.001 0.006 0.014
 12/07 13:09:16 - mmengine - INFO - Epoch(val) [156][178/178]    coco/bbox_mAP: 0.0090  coco/bbox_mAP_50: 0.0320  coco/bbox_mAP_75: 0.0030  coco/bbox_mAP_s: 0.0010  coco/bbox_mAP_m: 0.0060  coco/bbox_mAP_l: 0.0140  data_time: 0.0208  time: 0.1874
 12/07 13:09:37 - mmengine - INFO - Epoch(train) [157][ 50/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:58:45  time: 0.4222  data_time: 0.0200  memory: 23555  loss: 1.2362  loss_cls: 0.6683  loss_bbox: 0.5679
+12/07 13:09:58 - mmengine - INFO - Epoch(train) [157][100/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:58:24  time: 0.4182  data_time: 0.0157  memory: 23555  loss: 1.2446  loss_cls: 0.6664  loss_bbox: 0.5782
+12/07 13:10:19 - mmengine - INFO - Epoch(train) [157][150/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:58:03  time: 0.4179  data_time: 0.0157  memory: 23555  loss: 1.2394  loss_cls: 0.6628  loss_bbox: 0.5766
+12/07 13:10:40 - mmengine - INFO - Epoch(train) [157][200/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:57:42  time: 0.4205  data_time: 0.0157  memory: 23555  loss: 1.2291  loss_cls: 0.6577  loss_bbox: 0.5714
+12/07 13:11:01 - mmengine - INFO - Epoch(train) [157][250/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:57:21  time: 0.4213  data_time: 0.0159  memory: 23556  loss: 1.2390  loss_cls: 0.6657  loss_bbox: 0.5733
+12/07 13:11:22 - mmengine - INFO - Epoch(train) [157][300/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:56:59  time: 0.4195  data_time: 0.0160  memory: 23555  loss: 1.2392  loss_cls: 0.6682  loss_bbox: 0.5710
+12/07 13:11:43 - mmengine - INFO - Epoch(train) [157][350/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:56:38  time: 0.4198  data_time: 0.0152  memory: 23555  loss: 1.2440  loss_cls: 0.6731  loss_bbox: 0.5709
+12/07 13:12:04 - mmengine - INFO - Epoch(train) [157][400/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:56:17  time: 0.4220  data_time: 0.0157  memory: 23555  loss: 1.2347  loss_cls: 0.6622  loss_bbox: 0.5725
+12/07 13:12:10 - mmengine - INFO - Exp name: retinanet_effb2_fpn_8xb4-crop896-1x_dfs_20231207_030549
+12/07 13:12:20 - mmengine - INFO - Epoch(val) [157][ 50/178]    eta: 0:00:23  time: 0.1857  data_time: 0.0194  memory: 23546  
+12/07 13:12:29 - mmengine - INFO - Epoch(val) [157][100/178]    eta: 0:00:14  time: 0.1839  data_time: 0.0172  memory: 2115  
+12/07 13:12:38 - mmengine - INFO - Epoch(val) [157][150/178]    eta: 0:00:05  time: 0.1878  data_time: 0.0178  memory: 2115  
+12/07 13:12:47 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.86s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=9.96s).
+Accumulating evaluation results...
+DONE (t=6.79s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.009
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.032
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.003
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.001
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.005
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.013
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.133
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.133
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.133
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.012
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.084
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.192
+12/07 13:13:06 - mmengine - INFO - bbox_mAP_copypaste: 0.009 0.032 0.003 0.001 0.005 0.013
+12/07 13:13:06 - mmengine - INFO - Epoch(val) [157][178/178]    coco/bbox_mAP: 0.0090  coco/bbox_mAP_50: 0.0320  coco/bbox_mAP_75: 0.0030  coco/bbox_mAP_s: 0.0010  coco/bbox_mAP_m: 0.0050  coco/bbox_mAP_l: 0.0130  data_time: 0.0178  time: 0.1839
+12/07 13:13:08 - mmengine - INFO - Exp name: retinanet_effb2_fpn_8xb4-crop896-1x_dfs_20231207_030549
+12/07 13:13:28 - mmengine - INFO - Epoch(train) [158][ 50/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:55:50  time: 0.4266  data_time: 0.0222  memory: 23555  loss: 1.2379  loss_cls: 0.6658  loss_bbox: 0.5721
+12/07 13:13:49 - mmengine - INFO - Epoch(train) [158][100/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:55:29  time: 0.4207  data_time: 0.0163  memory: 23555  loss: 1.2294  loss_cls: 0.6601  loss_bbox: 0.5693
+12/07 13:14:10 - mmengine - INFO - Epoch(train) [158][150/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:55:08  time: 0.4205  data_time: 0.0159  memory: 23555  loss: 1.2309  loss_cls: 0.6594  loss_bbox: 0.5716
+12/07 13:14:31 - mmengine - INFO - Epoch(train) [158][200/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:54:47  time: 0.4248  data_time: 0.0163  memory: 23555  loss: 1.2458  loss_cls: 0.6717  loss_bbox: 0.5742
+12/07 13:14:52 - mmengine - INFO - Epoch(train) [158][250/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:54:26  time: 0.4205  data_time: 0.0152  memory: 23555  loss: 1.2420  loss_cls: 0.6675  loss_bbox: 0.5745
+12/07 13:15:13 - mmengine - INFO - Epoch(train) [158][300/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:54:05  time: 0.4225  data_time: 0.0152  memory: 23555  loss: 1.2375  loss_cls: 0.6640  loss_bbox: 0.5735
+12/07 13:15:34 - mmengine - INFO - Epoch(train) [158][350/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:53:44  time: 0.4209  data_time: 0.0152  memory: 23556  loss: 1.2400  loss_cls: 0.6724  loss_bbox: 0.5676
+12/07 13:15:55 - mmengine - INFO - Epoch(train) [158][400/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:53:23  time: 0.4234  data_time: 0.0156  memory: 23555  loss: 1.2408  loss_cls: 0.6691  loss_bbox: 0.5717
+12/07 13:16:01 - mmengine - INFO - Exp name: retinanet_effb2_fpn_8xb4-crop896-1x_dfs_20231207_030549
+12/07 13:16:01 - mmengine - INFO - Saving checkpoint at 158 epochs
+12/07 13:16:12 - mmengine - INFO - Epoch(val) [158][ 50/178]    eta: 0:00:24  time: 0.1914  data_time: 0.0218  memory: 23554  
+12/07 13:16:21 - mmengine - INFO - Epoch(val) [158][100/178]    eta: 0:00:14  time: 0.1896  data_time: 0.0197  memory: 2113  
+12/07 13:16:31 - mmengine - INFO - Epoch(val) [158][150/178]    eta: 0:00:05  time: 0.1908  data_time: 0.0201  memory: 2113  
+12/07 13:16:40 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.96s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=10.25s).
+Accumulating evaluation results...
+DONE (t=7.14s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.009
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.033
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.002
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.001
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.006
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.013
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.134
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.134
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.134
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.014
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.087
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.191
+12/07 13:17:00 - mmengine - INFO - bbox_mAP_copypaste: 0.009 0.033 0.002 0.001 0.006 0.013
+12/07 13:17:01 - mmengine - INFO - Epoch(val) [158][178/178]    coco/bbox_mAP: 0.0090  coco/bbox_mAP_50: 0.0330  coco/bbox_mAP_75: 0.0020  coco/bbox_mAP_s: 0.0010  coco/bbox_mAP_m: 0.0060  coco/bbox_mAP_l: 0.0130  data_time: 0.0199  time: 0.1890
+12/07 13:17:22 - mmengine - INFO - Epoch(train) [159][ 50/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:52:56  time: 0.4208  data_time: 0.0176  memory: 23555  loss: 1.2441  loss_cls: 0.6646  loss_bbox: 0.5794
+12/07 13:17:43 - mmengine - INFO - Epoch(train) [159][100/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:52:35  time: 0.4212  data_time: 0.0151  memory: 23556  loss: 1.2253  loss_cls: 0.6600  loss_bbox: 0.5653
+12/07 13:18:04 - mmengine - INFO - Epoch(train) [159][150/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:52:13  time: 0.4175  data_time: 0.0155  memory: 23555  loss: 1.2383  loss_cls: 0.6646  loss_bbox: 0.5737
+12/07 13:18:25 - mmengine - INFO - Epoch(train) [159][200/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:51:52  time: 0.4232  data_time: 0.0194  memory: 23555  loss: 1.2358  loss_cls: 0.6647  loss_bbox: 0.5711
+12/07 13:18:46 - mmengine - INFO - Epoch(train) [159][250/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:51:31  time: 0.4210  data_time: 0.0155  memory: 23554  loss: 1.2253  loss_cls: 0.6630  loss_bbox: 0.5624
+12/07 13:19:07 - mmengine - INFO - Epoch(train) [159][300/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:51:10  time: 0.4220  data_time: 0.0155  memory: 23555  loss: 1.2474  loss_cls: 0.6675  loss_bbox: 0.5798
+12/07 13:19:28 - mmengine - INFO - Epoch(train) [159][350/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:50:49  time: 0.4231  data_time: 0.0156  memory: 23554  loss: 1.2459  loss_cls: 0.6736  loss_bbox: 0.5723
+12/07 13:19:49 - mmengine - INFO - Epoch(train) [159][400/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:50:28  time: 0.4235  data_time: 0.0164  memory: 23554  loss: 1.2476  loss_cls: 0.6726  loss_bbox: 0.5750
+12/07 13:19:55 - mmengine - INFO - Exp name: retinanet_effb2_fpn_8xb4-crop896-1x_dfs_20231207_030549
+12/07 13:20:05 - mmengine - INFO - Epoch(val) [159][ 50/178]    eta: 0:00:24  time: 0.1899  data_time: 0.0219  memory: 23555  
+12/07 13:20:14 - mmengine - INFO - Epoch(val) [159][100/178]    eta: 0:00:14  time: 0.1861  data_time: 0.0200  memory: 2112  
+12/07 13:20:23 - mmengine - INFO - Epoch(val) [159][150/178]    eta: 0:00:05  time: 0.1779  data_time: 0.0166  memory: 2112  
+12/07 13:20:32 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.85s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=10.30s).
+Accumulating evaluation results...
+DONE (t=6.77s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.011
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.035
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.005
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.001
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.005
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.015
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.135
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.135
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.135
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.015
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.087
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.192
+12/07 13:20:51 - mmengine - INFO - bbox_mAP_copypaste: 0.011 0.035 0.005 0.001 0.005 0.015
+12/07 13:20:52 - mmengine - INFO - Epoch(val) [159][178/178]    coco/bbox_mAP: 0.0110  coco/bbox_mAP_50: 0.0350  coco/bbox_mAP_75: 0.0050  coco/bbox_mAP_s: 0.0010  coco/bbox_mAP_m: 0.0050  coco/bbox_mAP_l: 0.0150  data_time: 0.0189  time: 0.1835
+12/07 13:20:52 - mmengine - INFO - The previous best checkpoint /lab/hj/hujie002/wl/mmdetection/work_dirs/retinanet_effb2_fpn_8xb4-crop896-1x_dfs/best_coco_bbox_mAP_epoch_154.pth is removed
+12/07 13:20:52 - mmengine - INFO - The best checkpoint with 0.0110 coco/bbox_mAP at 159 epoch is saved to best_coco_bbox_mAP_epoch_159.pth.
+12/07 13:21:14 - mmengine - INFO - Epoch(train) [160][ 50/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:50:01  time: 0.4253  data_time: 0.0223  memory: 23555  loss: 1.2303  loss_cls: 0.6621  loss_bbox: 0.5682
+12/07 13:21:35 - mmengine - INFO - Epoch(train) [160][100/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:49:40  time: 0.4207  data_time: 0.0162  memory: 23555  loss: 1.2364  loss_cls: 0.6662  loss_bbox: 0.5702
+12/07 13:21:56 - mmengine - INFO - Epoch(train) [160][150/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:49:19  time: 0.4223  data_time: 0.0161  memory: 23555  loss: 1.2322  loss_cls: 0.6653  loss_bbox: 0.5668
+12/07 13:22:06 - mmengine - INFO - Exp name: retinanet_effb2_fpn_8xb4-crop896-1x_dfs_20231207_030549
+12/07 13:22:17 - mmengine - INFO - Epoch(train) [160][200/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:48:58  time: 0.4219  data_time: 0.0158  memory: 23555  loss: 1.2495  loss_cls: 0.6742  loss_bbox: 0.5753
+12/07 13:22:39 - mmengine - INFO - Epoch(train) [160][250/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:48:37  time: 0.4227  data_time: 0.0161  memory: 23555  loss: 1.2445  loss_cls: 0.6704  loss_bbox: 0.5742
+12/07 13:23:00 - mmengine - INFO - Epoch(train) [160][300/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:48:16  time: 0.4218  data_time: 0.0159  memory: 23555  loss: 1.2392  loss_cls: 0.6684  loss_bbox: 0.5709
+12/07 13:23:21 - mmengine - INFO - Epoch(train) [160][350/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:47:55  time: 0.4255  data_time: 0.0174  memory: 23556  loss: 1.2313  loss_cls: 0.6625  loss_bbox: 0.5687
+12/07 13:23:42 - mmengine - INFO - Epoch(train) [160][400/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:47:34  time: 0.4228  data_time: 0.0162  memory: 23556  loss: 1.2411  loss_cls: 0.6704  loss_bbox: 0.5706
+12/07 13:23:48 - mmengine - INFO - Exp name: retinanet_effb2_fpn_8xb4-crop896-1x_dfs_20231207_030549
+12/07 13:23:48 - mmengine - INFO - Saving checkpoint at 160 epochs
+12/07 13:23:59 - mmengine - INFO - Epoch(val) [160][ 50/178]    eta: 0:00:24  time: 0.1947  data_time: 0.0230  memory: 23555  
+12/07 13:24:08 - mmengine - INFO - Epoch(val) [160][100/178]    eta: 0:00:14  time: 0.1886  data_time: 0.0185  memory: 2115  
+12/07 13:24:17 - mmengine - INFO - Epoch(val) [160][150/178]    eta: 0:00:05  time: 0.1871  data_time: 0.0187  memory: 2115  
+12/07 13:24:27 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.86s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=10.23s).
+Accumulating evaluation results...
+DONE (t=6.76s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.009
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.031
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.003
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.001
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.006
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.013
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.137
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.137
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.137
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.015
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.087
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.195
+12/07 13:24:46 - mmengine - INFO - bbox_mAP_copypaste: 0.009 0.031 0.003 0.001 0.006 0.013
+12/07 13:24:46 - mmengine - INFO - Epoch(val) [160][178/178]    coco/bbox_mAP: 0.0090  coco/bbox_mAP_50: 0.0310  coco/bbox_mAP_75: 0.0030  coco/bbox_mAP_s: 0.0010  coco/bbox_mAP_m: 0.0060  coco/bbox_mAP_l: 0.0130  data_time: 0.0195  time: 0.1882
+12/07 13:25:07 - mmengine - INFO - Epoch(train) [161][ 50/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:47:07  time: 0.4246  data_time: 0.0216  memory: 23555  loss: 1.2316  loss_cls: 0.6619  loss_bbox: 0.5697
+12/07 13:25:28 - mmengine - INFO - Epoch(train) [161][100/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:46:46  time: 0.4175  data_time: 0.0159  memory: 23555  loss: 1.2424  loss_cls: 0.6728  loss_bbox: 0.5696
+12/07 13:25:49 - mmengine - INFO - Epoch(train) [161][150/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:46:25  time: 0.4201  data_time: 0.0161  memory: 23556  loss: 1.2304  loss_cls: 0.6599  loss_bbox: 0.5705
+12/07 13:26:10 - mmengine - INFO - Epoch(train) [161][200/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:46:03  time: 0.4193  data_time: 0.0159  memory: 23555  loss: 1.2474  loss_cls: 0.6717  loss_bbox: 0.5758
+12/07 13:26:31 - mmengine - INFO - Epoch(train) [161][250/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:45:42  time: 0.4211  data_time: 0.0155  memory: 23555  loss: 1.2281  loss_cls: 0.6612  loss_bbox: 0.5669
+12/07 13:26:53 - mmengine - INFO - Epoch(train) [161][300/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:45:21  time: 0.4222  data_time: 0.0158  memory: 23555  loss: 1.2335  loss_cls: 0.6652  loss_bbox: 0.5683
+12/07 13:27:14 - mmengine - INFO - Epoch(train) [161][350/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:45:00  time: 0.4220  data_time: 0.0154  memory: 23555  loss: 1.2510  loss_cls: 0.6777  loss_bbox: 0.5732
+12/07 13:27:35 - mmengine - INFO - Epoch(train) [161][400/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:44:39  time: 0.4224  data_time: 0.0159  memory: 23555  loss: 1.2414  loss_cls: 0.6709  loss_bbox: 0.5704
+12/07 13:27:41 - mmengine - INFO - Exp name: retinanet_effb2_fpn_8xb4-crop896-1x_dfs_20231207_030549
+12/07 13:27:50 - mmengine - INFO - Epoch(val) [161][ 50/178]    eta: 0:00:24  time: 0.1878  data_time: 0.0208  memory: 23555  
+12/07 13:27:59 - mmengine - INFO - Epoch(val) [161][100/178]    eta: 0:00:14  time: 0.1884  data_time: 0.0177  memory: 2117  
+12/07 13:28:09 - mmengine - INFO - Epoch(val) [161][150/178]    eta: 0:00:05  time: 0.1874  data_time: 0.0176  memory: 2117  
+12/07 13:28:18 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.89s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=10.23s).
+Accumulating evaluation results...
+DONE (t=6.99s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.010
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.033
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.003
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.001
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.006
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.014
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.136
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.136
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.136
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.014
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.084
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.195
+12/07 13:28:38 - mmengine - INFO - bbox_mAP_copypaste: 0.010 0.033 0.003 0.001 0.006 0.014
+12/07 13:28:38 - mmengine - INFO - Epoch(val) [161][178/178]    coco/bbox_mAP: 0.0100  coco/bbox_mAP_50: 0.0330  coco/bbox_mAP_75: 0.0030  coco/bbox_mAP_s: 0.0010  coco/bbox_mAP_m: 0.0060  coco/bbox_mAP_l: 0.0140  data_time: 0.0186  time: 0.1866
+12/07 13:28:59 - mmengine - INFO - Epoch(train) [162][ 50/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:44:12  time: 0.4268  data_time: 0.0221  memory: 23556  loss: 1.2399  loss_cls: 0.6623  loss_bbox: 0.5776
+12/07 13:29:20 - mmengine - INFO - Epoch(train) [162][100/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:43:51  time: 0.4170  data_time: 0.0153  memory: 23554  loss: 1.2399  loss_cls: 0.6640  loss_bbox: 0.5759
+12/07 13:29:41 - mmengine - INFO - Epoch(train) [162][150/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:43:30  time: 0.4192  data_time: 0.0148  memory: 23555  loss: 1.2383  loss_cls: 0.6676  loss_bbox: 0.5708
+12/07 13:30:02 - mmengine - INFO - Epoch(train) [162][200/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:43:09  time: 0.4228  data_time: 0.0155  memory: 23555  loss: 1.2479  loss_cls: 0.6739  loss_bbox: 0.5740
+12/07 13:30:23 - mmengine - INFO - Epoch(train) [162][250/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:42:47  time: 0.4175  data_time: 0.0145  memory: 23555  loss: 1.2481  loss_cls: 0.6730  loss_bbox: 0.5750
+12/07 13:30:44 - mmengine - INFO - Epoch(train) [162][300/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:42:26  time: 0.4186  data_time: 0.0149  memory: 23555  loss: 1.2409  loss_cls: 0.6673  loss_bbox: 0.5736
+12/07 13:31:03 - mmengine - INFO - Exp name: retinanet_effb2_fpn_8xb4-crop896-1x_dfs_20231207_030549
+12/07 13:31:05 - mmengine - INFO - Epoch(train) [162][350/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:42:05  time: 0.4184  data_time: 0.0154  memory: 23555  loss: 1.2190  loss_cls: 0.6563  loss_bbox: 0.5628
+12/07 13:31:26 - mmengine - INFO - Epoch(train) [162][400/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:41:44  time: 0.4213  data_time: 0.0157  memory: 23555  loss: 1.2392  loss_cls: 0.6671  loss_bbox: 0.5721
+12/07 13:31:32 - mmengine - INFO - Exp name: retinanet_effb2_fpn_8xb4-crop896-1x_dfs_20231207_030549
+12/07 13:31:32 - mmengine - INFO - Saving checkpoint at 162 epochs
+12/07 13:31:42 - mmengine - INFO - Epoch(val) [162][ 50/178]    eta: 0:00:24  time: 0.1890  data_time: 0.0226  memory: 23554  
+12/07 13:31:52 - mmengine - INFO - Epoch(val) [162][100/178]    eta: 0:00:14  time: 0.1872  data_time: 0.0209  memory: 2115  
+12/07 13:32:01 - mmengine - INFO - Epoch(val) [162][150/178]    eta: 0:00:05  time: 0.1839  data_time: 0.0200  memory: 2115  
+12/07 13:32:10 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.89s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=11.00s).
+Accumulating evaluation results...
+DONE (t=7.43s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.010
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.033
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.004
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.001
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.005
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.014
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.133
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.133
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.133
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.014
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.084
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.190
+12/07 13:32:31 - mmengine - INFO - bbox_mAP_copypaste: 0.010 0.033 0.004 0.001 0.005 0.014
+12/07 13:32:31 - mmengine - INFO - Epoch(val) [162][178/178]    coco/bbox_mAP: 0.0100  coco/bbox_mAP_50: 0.0330  coco/bbox_mAP_75: 0.0040  coco/bbox_mAP_s: 0.0010  coco/bbox_mAP_m: 0.0050  coco/bbox_mAP_l: 0.0140  data_time: 0.0205  time: 0.1853
+12/07 13:32:53 - mmengine - INFO - Epoch(train) [163][ 50/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:41:17  time: 0.4243  data_time: 0.0211  memory: 23555  loss: 1.2314  loss_cls: 0.6602  loss_bbox: 0.5712
+12/07 13:33:13 - mmengine - INFO - Epoch(train) [163][100/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:40:55  time: 0.4153  data_time: 0.0151  memory: 23555  loss: 1.2365  loss_cls: 0.6658  loss_bbox: 0.5707
+12/07 13:33:34 - mmengine - INFO - Epoch(train) [163][150/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:40:34  time: 0.4210  data_time: 0.0154  memory: 23556  loss: 1.2403  loss_cls: 0.6686  loss_bbox: 0.5717
+12/07 13:33:55 - mmengine - INFO - Epoch(train) [163][200/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:40:13  time: 0.4195  data_time: 0.0149  memory: 23555  loss: 1.2295  loss_cls: 0.6615  loss_bbox: 0.5680
+12/07 13:34:16 - mmengine - INFO - Epoch(train) [163][250/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:39:52  time: 0.4191  data_time: 0.0156  memory: 23555  loss: 1.2389  loss_cls: 0.6668  loss_bbox: 0.5721
+12/07 13:34:37 - mmengine - INFO - Epoch(train) [163][300/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:39:31  time: 0.4224  data_time: 0.0157  memory: 23555  loss: 1.2366  loss_cls: 0.6652  loss_bbox: 0.5714
+12/07 13:34:59 - mmengine - INFO - Epoch(train) [163][350/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:39:10  time: 0.4219  data_time: 0.0153  memory: 23555  loss: 1.2426  loss_cls: 0.6692  loss_bbox: 0.5734
+12/07 13:35:20 - mmengine - INFO - Epoch(train) [163][400/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:38:49  time: 0.4209  data_time: 0.0152  memory: 23555  loss: 1.2334  loss_cls: 0.6675  loss_bbox: 0.5659
+12/07 13:35:26 - mmengine - INFO - Exp name: retinanet_effb2_fpn_8xb4-crop896-1x_dfs_20231207_030549
+12/07 13:35:35 - mmengine - INFO - Epoch(val) [163][ 50/178]    eta: 0:00:24  time: 0.1916  data_time: 0.0217  memory: 23555  
+12/07 13:35:45 - mmengine - INFO - Epoch(val) [163][100/178]    eta: 0:00:14  time: 0.1880  data_time: 0.0179  memory: 2117  
+12/07 13:35:54 - mmengine - INFO - Epoch(val) [163][150/178]    eta: 0:00:05  time: 0.1892  data_time: 0.0193  memory: 2117  
+12/07 13:36:03 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.90s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=9.80s).
+Accumulating evaluation results...
+DONE (t=6.73s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.009
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.031
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.003
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.001
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.005
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.013
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.136
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.136
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.136
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.015
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.090
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.192
+12/07 13:36:22 - mmengine - INFO - bbox_mAP_copypaste: 0.009 0.031 0.003 0.001 0.005 0.013
+12/07 13:36:22 - mmengine - INFO - Epoch(val) [163][178/178]    coco/bbox_mAP: 0.0090  coco/bbox_mAP_50: 0.0310  coco/bbox_mAP_75: 0.0030  coco/bbox_mAP_s: 0.0010  coco/bbox_mAP_m: 0.0050  coco/bbox_mAP_l: 0.0130  data_time: 0.0191  time: 0.1880
+12/07 13:36:44 - mmengine - INFO - Epoch(train) [164][ 50/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:38:22  time: 0.4238  data_time: 0.0200  memory: 23555  loss: 1.2275  loss_cls: 0.6619  loss_bbox: 0.5657
+12/07 13:37:05 - mmengine - INFO - Epoch(train) [164][100/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:38:01  time: 0.4189  data_time: 0.0158  memory: 23555  loss: 1.2410  loss_cls: 0.6670  loss_bbox: 0.5740
+12/07 13:37:26 - mmengine - INFO - Epoch(train) [164][150/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:37:40  time: 0.4237  data_time: 0.0162  memory: 23555  loss: 1.2449  loss_cls: 0.6734  loss_bbox: 0.5715
+12/07 13:37:47 - mmengine - INFO - Epoch(train) [164][200/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:37:18  time: 0.4207  data_time: 0.0152  memory: 23555  loss: 1.2295  loss_cls: 0.6622  loss_bbox: 0.5673
+12/07 13:38:08 - mmengine - INFO - Epoch(train) [164][250/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:36:57  time: 0.4222  data_time: 0.0155  memory: 23555  loss: 1.2449  loss_cls: 0.6695  loss_bbox: 0.5754
+12/07 13:38:29 - mmengine - INFO - Epoch(train) [164][300/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:36:36  time: 0.4225  data_time: 0.0153  memory: 23556  loss: 1.2380  loss_cls: 0.6598  loss_bbox: 0.5782
+12/07 13:38:50 - mmengine - INFO - Epoch(train) [164][350/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:36:15  time: 0.4223  data_time: 0.0156  memory: 23555  loss: 1.2474  loss_cls: 0.6708  loss_bbox: 0.5765
+12/07 13:39:11 - mmengine - INFO - Epoch(train) [164][400/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:35:54  time: 0.4224  data_time: 0.0162  memory: 23555  loss: 1.2197  loss_cls: 0.6544  loss_bbox: 0.5653
+12/07 13:39:17 - mmengine - INFO - Exp name: retinanet_effb2_fpn_8xb4-crop896-1x_dfs_20231207_030549
+12/07 13:39:17 - mmengine - INFO - Saving checkpoint at 164 epochs
+12/07 13:39:28 - mmengine - INFO - Epoch(val) [164][ 50/178]    eta: 0:00:24  time: 0.1911  data_time: 0.0215  memory: 23555  
+12/07 13:39:37 - mmengine - INFO - Epoch(val) [164][100/178]    eta: 0:00:14  time: 0.1860  data_time: 0.0182  memory: 2114  
+12/07 13:39:46 - mmengine - INFO - Epoch(val) [164][150/178]    eta: 0:00:05  time: 0.1885  data_time: 0.0187  memory: 2114  
+12/07 13:39:56 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.91s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=9.84s).
+Accumulating evaluation results...
+DONE (t=7.01s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.010
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.035
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.006
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.001
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.005
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.014
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.136
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.136
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.136
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.013
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.088
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.192
+12/07 13:40:15 - mmengine - INFO - bbox_mAP_copypaste: 0.010 0.035 0.006 0.001 0.005 0.014
+12/07 13:40:15 - mmengine - INFO - Epoch(val) [164][178/178]    coco/bbox_mAP: 0.0100  coco/bbox_mAP_50: 0.0350  coco/bbox_mAP_75: 0.0060  coco/bbox_mAP_s: 0.0010  coco/bbox_mAP_m: 0.0050  coco/bbox_mAP_l: 0.0140  data_time: 0.0190  time: 0.1865
+12/07 13:40:37 - mmengine - INFO - Epoch(train) [165][ 50/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:35:27  time: 0.4250  data_time: 0.0203  memory: 23555  loss: 1.2274  loss_cls: 0.6618  loss_bbox: 0.5655
+12/07 13:40:57 - mmengine - INFO - Epoch(train) [165][100/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:35:06  time: 0.4183  data_time: 0.0153  memory: 23555  loss: 1.2553  loss_cls: 0.6731  loss_bbox: 0.5822
+12/07 13:40:59 - mmengine - INFO - Exp name: retinanet_effb2_fpn_8xb4-crop896-1x_dfs_20231207_030549
+12/07 13:41:19 - mmengine - INFO - Epoch(train) [165][150/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:34:45  time: 0.4209  data_time: 0.0158  memory: 23555  loss: 1.2482  loss_cls: 0.6721  loss_bbox: 0.5761
+12/07 13:41:40 - mmengine - INFO - Epoch(train) [165][200/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:34:24  time: 0.4253  data_time: 0.0157  memory: 23556  loss: 1.2408  loss_cls: 0.6667  loss_bbox: 0.5740
+12/07 13:42:01 - mmengine - INFO - Epoch(train) [165][250/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:34:03  time: 0.4207  data_time: 0.0153  memory: 23555  loss: 1.2379  loss_cls: 0.6644  loss_bbox: 0.5735
+12/07 13:42:22 - mmengine - INFO - Epoch(train) [165][300/414]  base_lr: 4.0000e-04 lr: 4.0000e-04  eta: 6:33:42  time: 0.4221  data_time: 0.0155  memory: 23555  loss: 1.2295  loss_cls: 0.6651  loss_bbox: 0.5644
