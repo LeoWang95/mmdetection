@@ -10885,3 +10885,4 @@ DONE (t=2.61s).
 01/30 12:04:06 - mmengine - INFO - Epoch(train) [200][ 650/1186]  lr: 1.0000e-05  eta: 5:58:31  time: 0.1925  data_time: 0.0202  memory: 2719  loss: 0.4789  loss_cls: 0.2128  loss_bbox: 0.2661
 01/30 12:04:15 - mmengine - INFO - Epoch(train) [200][ 700/1186]  lr: 1.0000e-05  eta: 5:58:22  time: 0.1844  data_time: 0.0197  memory: 2718  loss: 0.4929  loss_cls: 0.2170  loss_bbox: 0.2760
 01/30 12:04:25 - mmengine - INFO - Epoch(train) [200][ 750/1186]  lr: 1.0000e-05  eta: 5:58:13  time: 0.1896  data_time: 0.0203  memory: 2718  loss: 0.4927  loss_cls: 0.2166  loss_bbox: 0.2761
+01/30 12:04:34 - mmengine - INFO - Epoch(train) [200][ 800/1186]  lr: 1.0000e-05  eta: 5:58:04  time: 0.1827  data_time: 0.0187  memory: 2717  loss: 0.4794  loss_cls: 0.2137  loss_bbox: 0.2657
