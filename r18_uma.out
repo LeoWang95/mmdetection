@@ -10875,3 +10875,13 @@ DONE (t=2.61s).
 01/30 12:02:33 - mmengine - INFO - Epoch(train) [200][ 150/1186]  lr: 1.0000e-05  eta: 6:00:00  time: 0.1819  data_time: 0.0200  memory: 2718  loss: 0.4730  loss_cls: 0.2096  loss_bbox: 0.2635
 01/30 12:02:42 - mmengine - INFO - Epoch(train) [200][ 200/1186]  lr: 1.0000e-05  eta: 5:59:51  time: 0.1794  data_time: 0.0185  memory: 2718  loss: 0.4691  loss_cls: 0.2065  loss_bbox: 0.2627
 01/30 12:02:51 - mmengine - INFO - Epoch(train) [200][ 250/1186]  lr: 1.0000e-05  eta: 5:59:42  time: 0.1809  data_time: 0.0195  memory: 2719  loss: 0.4781  loss_cls: 0.2124  loss_bbox: 0.2658
+01/30 12:03:00 - mmengine - INFO - Epoch(train) [200][ 300/1186]  lr: 1.0000e-05  eta: 5:59:33  time: 0.1823  data_time: 0.0200  memory: 2719  loss: 0.4815  loss_cls: 0.2126  loss_bbox: 0.2689
+01/30 12:03:09 - mmengine - INFO - Epoch(train) [200][ 350/1186]  lr: 1.0000e-05  eta: 5:59:24  time: 0.1877  data_time: 0.0202  memory: 2719  loss: 0.4837  loss_cls: 0.2161  loss_bbox: 0.2676
+01/30 12:03:19 - mmengine - INFO - Epoch(train) [200][ 400/1186]  lr: 1.0000e-05  eta: 5:59:15  time: 0.1918  data_time: 0.0196  memory: 2719  loss: 0.4788  loss_cls: 0.2121  loss_bbox: 0.2667
+01/30 12:03:29 - mmengine - INFO - Epoch(train) [200][ 450/1186]  lr: 1.0000e-05  eta: 5:59:07  time: 0.1931  data_time: 0.0195  memory: 2717  loss: 0.4586  loss_cls: 0.2019  loss_bbox: 0.2567
+01/30 12:03:38 - mmengine - INFO - Epoch(train) [200][ 500/1186]  lr: 1.0000e-05  eta: 5:58:58  time: 0.1864  data_time: 0.0200  memory: 2719  loss: 0.4919  loss_cls: 0.2197  loss_bbox: 0.2721
+01/30 12:03:47 - mmengine - INFO - Epoch(train) [200][ 550/1186]  lr: 1.0000e-05  eta: 5:58:49  time: 0.1838  data_time: 0.0196  memory: 2718  loss: 0.4787  loss_cls: 0.2126  loss_bbox: 0.2662
+01/30 12:03:56 - mmengine - INFO - Epoch(train) [200][ 600/1186]  lr: 1.0000e-05  eta: 5:58:40  time: 0.1800  data_time: 0.0188  memory: 2717  loss: 0.4774  loss_cls: 0.2116  loss_bbox: 0.2658
+01/30 12:04:06 - mmengine - INFO - Epoch(train) [200][ 650/1186]  lr: 1.0000e-05  eta: 5:58:31  time: 0.1925  data_time: 0.0202  memory: 2719  loss: 0.4789  loss_cls: 0.2128  loss_bbox: 0.2661
+01/30 12:04:15 - mmengine - INFO - Epoch(train) [200][ 700/1186]  lr: 1.0000e-05  eta: 5:58:22  time: 0.1844  data_time: 0.0197  memory: 2718  loss: 0.4929  loss_cls: 0.2170  loss_bbox: 0.2760
+01/30 12:04:25 - mmengine - INFO - Epoch(train) [200][ 750/1186]  lr: 1.0000e-05  eta: 5:58:13  time: 0.1896  data_time: 0.0203  memory: 2718  loss: 0.4927  loss_cls: 0.2166  loss_bbox: 0.2761
