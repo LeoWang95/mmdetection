@@ -92,7 +92,7 @@ test_dataloader = dict(
 #         data_root=data_root,
 #         ann_file='annotations/test.json',
 #         data_prefix=dict(img='imgs/')))
-test_dataloader = val_dataloader
+# test_dataloader = val_dataloader
 # val_evaluator = dict(ann_file=data_root + 'annotations/test.json')
 val_evaluator = dict(
     type='CocoMetric',
@@ -100,6 +100,7 @@ val_evaluator = dict(
     metric='bbox',
     format_only=False,
     backend_args=backend_args)
+    
 test_evaluator = dict(
     type='CocoMetric',
     ann_file=data_root + 'annotations/test.json',
