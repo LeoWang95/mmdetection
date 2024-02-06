@@ -1,5 +1,5 @@
 _base_ = [
-    '../_base_/models/retinanet_r50_fpn.py',
+    '../_base_/models/retinanet_r50_fpn_uma.py',
     '../_base_/schedules/schedule_uma.py',
     '../_base_/datasets/uma_detection.py', '../_base_/default_runtime.py'
 ]
@@ -68,7 +68,7 @@ test_dataloader = val_dataloader
 
 # optimizer
 optim_wrapper = dict(
-    optimizer=dict(lr=0.04),
+    optimizer=dict(lr=0.008),
     paramwise_cfg=dict(norm_decay_mult=0, bypass_duplicate=True))
 
 # learning policy
